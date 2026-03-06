@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5c45300a14290f4290a05dd6ec4c2d4, type: 3}
+  m_Name: 1 Dash Atk
+  m_EditorClassIdentifier: Assembly-CSharp::Behavior
+  owner: {fileID: 0}
+  conditions:
+  - {fileID: 11400000, guid: 185a6a69d7fcefd45b6b0ad3bcb331d5, type: 2}
+  - {fileID: 11400000, guid: 5457232ba562d7b43a58e2d85bc21029, type: 2}
+  actions:
+  - {fileID: 11400000, guid: c9604a84e500d8a49803ae3bb4029f57, type: 2}

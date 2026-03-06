@@ -1,0 +1,23 @@
+:root {
+    --color-reality-bg: rgb(0, 0, 0);
+    --color-reality-fg: rgb(255, 255, 255);
+    --color-reality-accent: rgb(128, 128, 128);
+    --color-dream-primary: rgb(255, 107, 157);
+    --color-dream-secondary: rgb(196, 69, 105);
+    --color-dream-accent1: rgb(255, 160, 122);
+    --color-dream-accent2: rgb(152, 216, 200);
+    --color-dream-accent3: rgb(108, 92, 231);
+    --color-dream-accent4: rgb(162, 155, 254);
+    --color-merge-glow: rgba(255, 107, 157, 0.6);
+    --color-merge-shimmer: rgba(255, 255, 255, 0.8);
+    --spacing-xs: 8px;
+    --spacing-sm: 16px;
+    --spacing-md: 24px;
+    --spacing-lg: 48px;
+    --spacing-xl: 64px;
+    --duration-fast: 300ms;
+    --duration-normal: 600ms;
+    --duration-slow: 1000ms;
+}
+
+

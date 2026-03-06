@@ -1,1 +1,3 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=22871658&assignment_repo_type=AssignmentRepo)
+# 조건을 만족하면 실행하는 굴레를 꿈처럼 컨트롤 할 수 있을까요?
+# 턴제 게임이지만, 턴제의 굴레에서 벗어나고 싶은 게임입니다.
+

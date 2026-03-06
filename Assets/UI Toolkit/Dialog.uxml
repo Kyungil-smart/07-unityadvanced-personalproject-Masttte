@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="root" picking-mode="Ignore" style="flex-grow: 1; flex-direction: row; -unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/Font/ko/WinKor%20SDF.asset?fileID=11400000&amp;guid=ef40bde7c50e9364496e9e1082e64580&amp;type=2#WinKor SDF&quot;); font-size: 50px; color: rgb(255, 255, 255); align-items: flex-end;">
+        <ui:Label text="" name="teller" picking-mode="Ignore" style="bottom: auto; height: 50%; top: -64px; -unity-text-align: middle-left; margin-left: 128px;"/>
+        <ui:VisualElement name="Down" picking-mode="Ignore" style="flex-grow: 1; position: absolute; width: 100%; height: 47%; align-items: center; justify-content: center; bottom: auto;">
+            <ui:Label text="" name="dialog" enable-rich-text="false"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e93c2e8c0235264c84aa20659b1d8bf, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: Assembly-CSharp::UnitSO
+  nexus: 0
+  unit: "\uC8FC\uC778\uACF5"
+  desc: "\uC870\uAC74\uACFC \uC2E4\uD589\uC73C\uB85C \uD589\uB3D9\uD558\uB294 \uC8FC\uC778\uACF5
+    \uC785\uB2C8\uB2E4"
+  hp: 10
+  lucidity: 2
+  atk: 5
+  def: 2

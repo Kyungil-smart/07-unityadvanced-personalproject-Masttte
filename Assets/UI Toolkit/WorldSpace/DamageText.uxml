@@ -1,0 +1,3 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Label text="01" name="damage" style="-unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/Font/PressStart2P-Regular.ttf?fileID=12800000&amp;guid=160aa791cbbee18409b464dbe3428e8f&amp;type=3#PressStart2P-Regular&quot;); color: rgb(241, 37, 63); font-size: 12px; -unity-text-align: middle-center; white-space: pre; text-overflow: ellipsis; display: flex;"/>
+</ui:UXML>

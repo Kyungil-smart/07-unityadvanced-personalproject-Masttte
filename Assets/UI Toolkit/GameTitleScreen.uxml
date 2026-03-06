@@ -1,0 +1,83 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Uss/GameTitleScreen.uss?fileID=7433441132597879392&amp;guid=da77ed78cfe0af24d959ddd95da00fa9&amp;type=3#GameTitleScreen"/>
+    <Style src="project://database/Assets/UI%20Toolkit/Uss/Variables.uss?fileID=7433441132597879392&amp;guid=2133af56ede51ab4591f62799c076451&amp;type=3#Variables"/>
+    <ui:VisualElement name="background-container" class="background-container" style="-unity-font-definition: initial;">
+        <ui:VisualElement name="reality-side" class="reality-side" style="flex-shrink: 0; flex-grow: 0; display: flex;">
+            <ui:VisualElement name="dither-background" class="dither-background" style="display: flex;"/>
+            <ui:VisualElement name="geometric-shapes" class="geometric-shapes" style="position: absolute; flex-shrink: 0; left: 0; display: flex;">
+                <ui:VisualElement class="building building-1" style="flex-shrink: 0; left: 0%; width: 80px; height: 400px;"/>
+                <ui:VisualElement class="building building-4" style="flex-shrink: 0; left: 0%; width: 90px; height: 550px;"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="scanline-overlay" class="scanline-overlay" style="display: flex;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="dream-side" class="dream-side" style="flex-shrink: 0; flex-grow: 1; display: flex;">
+            <ui:VisualElement name="gradient-background" class="gradient-background" style="display: flex;"/>
+            <ui:VisualElement name="organic-shapes" class="organic-shapes">
+                <ui:VisualElement class="blob blob-1"/>
+                <ui:VisualElement class="blob blob-2"/>
+                <ui:VisualElement class="blob blob-3"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="particle-container" class="particle-container"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="merge-line" class="merge-line" style="width: -236px; flex-shrink: 0; left: 50%; align-items: center; align-self: auto; align-content: auto;">
+            <ui:VisualElement name="merge-glow" class="merge-glow" style="background-color: rgba(12, 12, 12, 0.18); width: 8px; left: auto; align-items: auto; -unity-background-image-tint-color: rgba(255, 255, 255, 0.24);"/>
+            <ui:VisualElement name="merge-shimmer" class="merge-shimmer" style="width: 32px; height: 32px; background-color: rgba(255, 255, 255, 0.92); display: flex; background-image: none;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="content-layer" class="content-layer">
+        <ui:VisualElement name="title-section" class="title-section">
+            <ui:VisualElement name="title-left" class="title-left">
+                <ui:Label text="DUAL&#10;REALM" class="title-text-reality" style="-unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/Font/ko/WinKor%20SDF.asset?fileID=11400000&amp;guid=ef40bde7c50e9364496e9e1082e64580&amp;type=2#WinKor SDF&quot;); font-size: 76px;"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="center-emblem" class="center-emblem">
+                <ui:VisualElement name="emblem-left" class="emblem-half emblem-reality"/>
+                <ui:VisualElement name="emblem-right" class="emblem-half emblem-dream"/>
+                <ui:VisualElement name="emblem-core" class="emblem-core"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="title-right" class="title-right">
+                <ui:Label text="Lucid&#10;Dream" class="title-text-dream"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="subtitle-section" class="subtitle-section">
+            <ui:Label text="WHERE REALITY MEETS IMAGINATION" class="subtitle-text"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="menu-container" class="menu-container">
+            <ui:VisualElement name="menu-item-start" data-item-id="start" class="split-menu-item">
+                <ui:VisualElement class="menu-half menu-left">
+                    <ui:Label text="START" class="menu-text-reality"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="dream" class="menu-half menu-right" style="-unity-font-style: normal; color: rgb(221, 221, 221); border-right-width: 2px;">
+                    <ui:Label text="DREAM" name="Label" class="menu-text-dream" style="-unity-font-style: bold;"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="menu-item-continue" data-item-id="continue" class="split-menu-item">
+                <ui:VisualElement class="menu-half menu-left">
+                    <ui:Label text="CONTINUE" class="menu-text-reality"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="remember" class="menu-half menu-right">
+                    <ui:Label text="REMEMBER" class="menu-text-dream"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="menu-item-settings" data-item-id="settings" class="split-menu-item">
+                <ui:VisualElement class="menu-half menu-left">
+                    <ui:Label text="CONFIG" class="menu-text-reality"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="shape" class="menu-half menu-right">
+                    <ui:Label text="SHAPE " class="menu-text-dream"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="menu-item-exit" data-item-id="exit" class="split-menu-item">
+                <ui:VisualElement class="menu-half menu-left">
+                    <ui:Label text="QUIT" class="menu-text-reality"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="wake" class="menu-half menu-right">
+                    <ui:Label text="WAKE" class="menu-text-dream"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="bottom-info" class="bottom-info">
+            <ui:Label text="B" class="version-text"/>
+            <ui:Label text="v0.0.1 ALPHA" name="prompt-text" class="prompt-text" style="color: rgb(255, 255, 255);"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

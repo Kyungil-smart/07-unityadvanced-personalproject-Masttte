@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2986bd85b091ecb46a8fcc91eb15489d, type: 3}
+  m_Name: Atk Side-1
+  m_EditorClassIdentifier: Assembly-CSharp::AtkASide
+  owner: {fileID: 0}
+  type: 1
+  desc: "1\uCE78 \uC774\uB0B4 <color=yellow>\uC720\uB2DB</color> \uACF5\uACA9"
+  atkX: 1
+  atkSize: 1
+  atkCount: 1
+  Range: 1

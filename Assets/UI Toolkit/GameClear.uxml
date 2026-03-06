@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="root" style="flex-grow: 1; align-items: center; flex-direction: column; display: none;">
+        <ui:VisualElement name="banner" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&quot;project://database/Assets/assets/Tiny%20Swords/UI%20Elements/Banners/Banner.png?fileID=2800000&amp;guid=95ccf692195044964a477a2f2538a1e0&amp;type=3#Banner&quot;); height: auto; width: 65%; top: -9%; align-items: center;">
+            <ui:Label text="Game Clear" name="Label" style="top: 30%; font-size: 64px; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/Font/PressStart2P-Regular.ttf?fileID=12800000&amp;guid=160aa791cbbee18409b464dbe3428e8f&amp;type=3#PressStart2P-Regular&quot;);"/>
+            <ui:Button text="타이틀" name="title" style="top: 40%; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; background-color: rgba(188, 188, 188, 0); font-size: 128px; -unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/Font/ko/AritaDotumKR-Medium%20SDF.asset?fileID=11400000&amp;guid=90065a334748ac64eba5e1a0c956dbf8&amp;type=2#AritaDotumKR-Medium SDF&quot;);"/>
+            <ui:Button text="다음 스테이지" name="nextStage" style="top: 40%; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; background-color: rgba(188, 188, 188, 0); font-size: 128px; -unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/Font/ko/AritaDotumKR-Medium%20SDF.asset?fileID=11400000&amp;guid=90065a334748ac64eba5e1a0c956dbf8&amp;type=2#AritaDotumKR-Medium SDF&quot;);"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

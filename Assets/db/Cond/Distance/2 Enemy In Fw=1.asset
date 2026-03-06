@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be296e32e08a12846adef6986cdee8b5, type: 3}
+  m_Name: 2 Enemy In Fw=1
+  m_EditorClassIdentifier: Assembly-CSharp::SomeInRangeDir
+  lucidityCost: 2
+  type: 3
+  desc: "<color=blue>\uB9C8\uB098 2</color>, <color=brown>\uC801</color>\uC774 1\uCE78
+    \uC55E\uC5D0 \uC788\uC73C\uBA74"
+  owner: {fileID: 0}
+  behavior: {fileID: 0}
+  distance: 1
+  exactDistance: 0
+  isAlly: 0
+  isForward: 1
